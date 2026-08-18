@@ -1,11 +1,11 @@
-# Python_Progect1
+# upi-qr-code-generator
 The UPI QR Code Generator 
 <br>
 Author - Vipul Choudhary
 
 import qrcode
 
-upi_id = input("Entre Your UPI Id :")
+upi_id = input("Enter your UPI ID:")
 
 googlepay_url=f"upi://pay?pa={upi_id}&pn=Recipient%20Name&mc=1234"
 phonepay_url=f"upi://pay?pa={upi_id}&pn=Recipient%20Name&mc=1234"
